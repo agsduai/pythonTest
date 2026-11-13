@@ -38,6 +38,17 @@ print("Py" + "thon")
 
 # ===== 练习题 =====
 # 1. 用 print() 分别输出你的年龄（整数）、身高（浮点数）、姓名（字符串）。
+print("年龄",26)
+print(1.80)
+print("姓名:余梦奇")
 # 2. 用 print() 输出布尔值 True 和空值 None，注意大小写，写成 true 会报错。
+print(True)
+print(False)
+print(None)
+
 # 3. 用科学计数法输出 1200000 和 0.00045，再写出对应的普通写法做对比。
+print(1.2E6)
+print(f"{4.5E-5:.6f}")
 # 4. 用 print() 输出 "5 + 3" 和 5 + 3，观察引号带来的区别。
+print("5 + 3")
+print(5 + 3)

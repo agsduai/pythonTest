@@ -7,13 +7,13 @@
 #   - 规范：见名知意、小写下划线、常量全大写
 
 # 合法的标识符
-user_name = "小明"      # 下划线命名（推荐）
-userName = "小红"       # 小驼峰命名
-_name = "以下划线开头也是合法的"
-age2 = 18               # 数字可以出现在中间或末尾
-MAX_COUNT = 100         # 全大写通常表示常量
-中文名字 = "中文也可以，但实际开发不推荐"
-print(user_name, userName, _name, age2, MAX_COUNT, 中文名字)
+# user_name = "小明"      # 下划线命名（推荐）
+# userName = "小红"       # 小驼峰命名
+# _name = "以下划线开头也是合法的"
+# age2 = 18               # 数字可以出现在中间或末尾
+# MAX_COUNT = 100         # 全大写通常表示常量
+# 中文名字 = "中文也可以，但实际开发不推荐"
+# print(user_name, userName, _name, age2, MAX_COUNT, 中文名字)
 
 # 以下写法都是不合法的（仅作说明，取消注释会报错）
 # 2age = 18          # 不能以数字开头
@@ -25,15 +25,15 @@ print(user_name, userName, _name, age2, MAX_COUNT, 中文名字)
 # 常见关键字：if、else、for、while、def、class、True、False、None
 
 # 标识符区分大小写
-name = "小写 name"
-Name = "大写 Name"
-print(name)
-print(Name)
+# name = "小写 name"
+# Name = "大写 Name"
+# print(name)
+# print(Name)
 
 # 好的命名让人一眼看懂含义
-student_name = "李四"
-student_age = 20
-print(student_name, student_age)
+# student_name = "李四"
+# student_age = 20
+# print(student_name, student_age)
 
 # ===== 练习题 =====
 # 1. 判断下列哪些是合法标识符，并在注释里写明原因：
