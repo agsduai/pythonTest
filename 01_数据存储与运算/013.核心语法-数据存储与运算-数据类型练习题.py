@@ -44,6 +44,22 @@ print(age_text + "1")   # 字符串拼接
 
 # ===== 练习题 =====
 # 1. 分别定义整数、浮点数、字符串、布尔值、None 各一个，用 type() 输出它们的类型。
+print(type(56))
+print(type(3.14))
+print(type(True))
+print(type("str"))
+print(type(None))
 # 2. 把字符串 "3.14" 转成浮点数，再转成整数，输出两次结果并观察区别。
+# str = "3.14"
+# print(float(str))
+# str = float(str)
+# print(int(str))
 # 3. 把 100 转成字符串后用 + 拼接成 "100分" 并输出。
+b = str(100)
+print(f"{b}分")
 # 4. 用 bool() 测试 0、1、""、"0"、None，把结果写在注释里。
+print(bool(0))
+print(bool(1))
+print(bool(""))
+print(bool("0"))
+print(bool(None))

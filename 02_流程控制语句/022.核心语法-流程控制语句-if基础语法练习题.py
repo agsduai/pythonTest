@@ -31,5 +31,16 @@ if age >= 18 and has_ticket:
 
 # ===== 练习题 =====
 # 1. 定义变量 num = 7，用 if 判断它是否大于 5，成立时输出“大于5”。
+num = 7
+if num > 5:
+    print("大于5")
+else:
+    print("小于5")
 # 2. 定义变量 password = "123456"，用 if 判断它是否等于 "123456"，成立时输出“密码正确”。
+password = "123456"
+if password == "123456":
+    print("密码正确")
 # 3. 定义变量 money = 120，用 if 判断它是否大于等于 100，成立时输出“可以购买”。
+money = 120
+if money > 100:
+    print("可以购买")

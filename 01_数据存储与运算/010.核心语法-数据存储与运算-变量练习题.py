@@ -47,6 +47,24 @@
 #
 # ===== 练习题 =====
 # 1. 定义变量保存你的姓名、年龄、城市，并用 print() 分三行输出。
+name = "余梦奇"
+age = "26"
+city = "苏州"
+print(name)
+print(age)
+print(cty)
 # 2. 定义商品单价 price 和数量 count，计算总价并输出。
+price = 56
+count = 20
+print("总价是",price * count)
 # 3. 定义变量 score = 60，输出后再把 score 改成 95，再次输出，观察覆盖效果。
+score = 60
+print(score)
+score = 95
+print(score)
 # 4. 定义 a = 1、b = 2，先让 b = a，再让 a = 100，输出 a 和 b，思考 b 为什么不是 100。
+a = 1
+b = 2
+a = 100
+print(a)
+print(b)
