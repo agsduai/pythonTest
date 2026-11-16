@@ -43,5 +43,31 @@ else:
 
 # ===== 练习题 =====
 # 1. 定义变量 score = 72，用 if...elif...else 输出等级：90 及以上优秀，80 及以上良好，60 及以上及格，否则不及格。
+score = 72 #int(input("请输入成绩"))
+if score > 90:
+    print("优秀")
+elif 90 >= score > 80:
+    print("良好")
+elif 80 >= score >= 60:
+    print("及格")
+else:
+    print("不及格")
+
 # 2. 定义变量 age = 8，用 if...elif...else 判断：小于 6 岁免票，6 到 17 岁半价，18 岁及以上全价。
+age = 8
+if age >= 18:
+    print("全票")
+elif 17 >= age >= 6:
+    print("半票")
+else:
+    print("免票")
 # 3. 定义变量 hour = 20，用 if...elif...else 输出问候：5-11 点早上好，12-13 点中午好，14-18 点下午好，其他时间晚上好。
+hour = 20
+if 11 >= hour >= 5:
+    print(f"{hour}点,早上好")
+elif 13 >= hour >= 12:
+    print("中午好")
+elif 18 >= hour >= 14:
+    print("下午好")
+else:
+    print("晚上好")

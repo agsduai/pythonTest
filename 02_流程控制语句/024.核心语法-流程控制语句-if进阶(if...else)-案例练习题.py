@@ -44,5 +44,20 @@ else:
 
 # ===== 练习题 =====
 # 1. 定义变量 score = 58，用 if...else 判断是否及格，及格输出“及格”，否则输出“不及格”。
+score = 58
+if score >= 60:
+    print("及格")
+else:
+    print("不及格")
 # 2. 定义变量 year = 2024，用 if...else 判断能否被 4 整除，能则输出“可能是闰年”，否则输出“不是闰年”。
+year = 2024
+if year % 4 == 0:
+    print("可能是闰年")
+else:
+    print("不是闰年")
 # 3. 定义变量 username = "admin"，判断是否等于 "admin"，是则输出“管理员登录”，否则输出“普通用户登录”。
+username = "admin"
+if username == "admin":
+    print("管理员登录")
+else:
+    print("普通用户登录")
