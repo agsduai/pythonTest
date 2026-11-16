@@ -14,7 +14,7 @@ import os
 from openai import OpenAI
 
 # 优先从环境变量读取；占位符仅用于展示，禁止提交真实密钥
-API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-你的密钥")
+API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-your-api-key")
 client = OpenAI(api_key=API_KEY, base_url="https://api.deepseek.com")
 
 

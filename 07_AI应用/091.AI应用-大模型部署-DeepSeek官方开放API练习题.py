@@ -13,7 +13,7 @@ import os
 import requests
 
 # 从环境变量读取密钥；这里的占位符仅用于演示，不要提交真实密钥
-API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-你的密钥")
+API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-your-api-key")
 BASE_URL = "https://api.deepseek.com"
 
 

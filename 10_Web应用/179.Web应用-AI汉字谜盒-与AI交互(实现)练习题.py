@@ -25,7 +25,7 @@ SYSTEM_PROMPT = (
     "用户回答后再判断对错，并解释原因。"
 )
 # 占位密钥：真实密钥应从环境变量读取，严禁提交到代码仓库
-client = OpenAI(api_key="sk-请替换为你的密钥", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="sk-your-api-key", base_url="https://api.deepseek.com")
 
 app = FastAPI(title="AI汉字谜盒")
 

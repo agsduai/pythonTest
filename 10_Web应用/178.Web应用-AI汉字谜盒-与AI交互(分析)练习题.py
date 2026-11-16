@@ -18,7 +18,7 @@ SYSTEM_PROMPT = (
 )
 
 # 占位密钥：真实密钥请放在环境变量或 .env 中，严禁提交到代码仓库
-API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-请替换为你的密钥")
+API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-your-api-key")
 client = OpenAI(api_key=API_KEY, base_url="https://api.deepseek.com")
 
 
