@@ -42,5 +42,35 @@ match status:
 
 # ===== 练习题 =====
 # 1. 定义变量 command = "start"，用 match 判断："start" 输出“启动”，"stop" 输出“停止”，其他输出“未知命令”。
+command = "start"
+match command:
+    case "start":
+        print("启动")
+    case "stop":
+        print("停止")
+    case _:
+        print("未知命令")
 # 2. 定义变量 month = 12，用 match 判断季节：3/4/5 春季，6/7/8 夏季，9/10/11 秋季，12/1/2 冬季。
+month =12
+match month:
+    case 3 | 4 | 5:
+        print("春节")
+    case 6 | 7 | 8:
+        print("夏季")
+    case 9 | 10 | 11:
+        print("秋天")
+    case 12 | 1 | 2:
+        print("冬天")
+    case _:
+        print("错误")
 # 3. 定义变量 grade = "A"，用 match 判断："A" 输出“优秀”，"B" 输出“良好”，"C" 或 "D" 输出“继续加油”，其他输出“成绩无效”。
+grade = "A"
+match grade:
+    case "A":
+        print("优秀")
+    case "B":
+        print("良好")
+    case "C" | "D":
+        print("加油")
+    case _:
+        print("成绩无效")

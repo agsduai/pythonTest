@@ -52,7 +52,7 @@ age = "26"
 city = "苏州"
 print(name)
 print(age)
-print(cty)
+print(city)
 # 2. 定义商品单价 price 和数量 count，计算总价并输出。
 price = 56
 count = 20

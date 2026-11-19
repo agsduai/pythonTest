@@ -37,5 +37,22 @@ print("while 循环结束")
 
 # ===== 练习题 =====
 # 1. 用 while 循环输出 1 到 10 的整数。
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
 # 2. 用 while 循环求 1 到 100 之间所有偶数的和。
+x = 1
+w = 0
+while x < 101:
+    if x % 2 == 0:
+        w += x
+    x += 1
+print(w)
 # 3. 用 while 循环求 5 的阶乘（1×2×3×4×5），并输出结果。
+z = 1
+y = 1
+while z < 6:
+    y = y * z
+    z += 1
+print(y)

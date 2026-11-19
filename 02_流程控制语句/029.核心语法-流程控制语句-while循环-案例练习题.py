@@ -7,20 +7,20 @@
 #   - 注意浮点数计算与格式化输出
 
 # 案例一：存款翻倍
-money = 10000
-years = 0
-while money < 20000:
-    money = money * 1.05  # 每年增长 5%
-    years += 1
-print(f"{years} 年后存款达到 {money:.2f} 元")
+# money = 10000
+# years = 0
+# while money < 20000:
+#     money = money * 1.05  # 每年增长 5%
+#     years += 1
+# print(f"{years} 年后存款达到 {money:.2f} 元")
 
 # 案例二：折纸超过珠穆朗玛峰
-thickness = 0.1
-count = 0
-while thickness < 8848:
-    thickness *= 2  # 每对折一次厚度翻倍
-    count += 1
-print(f"对折 {count} 次后高度为 {thickness:.2f} 米")
+# thickness = 0.1
+# count = 0
+# while thickness < 8848:
+#     thickness *= 2  # 每对折一次厚度翻倍
+#     count += 1
+# print(f"对折 {count} 次后高度为 {thickness:.2f} 米")
 
 # 案例三：统计整数位数
 number = 12345
@@ -41,5 +41,32 @@ print(f"1 到 10 的奇数和为：{total}")
 
 # ===== 练习题 =====
 # 1. 本金 5000 元，年利率 3%，用 while 计算多少年后本金超过 8000 元（不考虑取整）。
+money = 5000
+years = 0
+while money < 8000:
+    money = money * 1.03
+    years += 1
+print(years)
 # 2. 一张纸厚 0.1 毫米，每对折一次厚度翻倍，用 while 求对折多少次后超过 10 米。
+t = 0.1
+x = 0
+while t <= 10:
+    t *= 2
+    x += 1
+print(x)
 # 3. 用 while 循环求 123456 的各位数字之和（提示：% 10 取个位，// 10 去掉个位）。
+s  = 123456
+r = 1
+num = 0
+while r <= 6:
+    x = s % 10
+    s = s // 10
+    num += x
+    r += 1
+print(num)
+# s = 123456
+# num = 0
+# while s > 0:
+#     num += s % 10      # 取个位并累加
+#     s //= 10           # 去掉个位
+# print(num)

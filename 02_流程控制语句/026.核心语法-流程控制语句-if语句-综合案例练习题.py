@@ -49,5 +49,34 @@ else:
 
 # ===== 练习题 =====
 # 1. 定义变量 weight = 3.5，用 if...elif...else 计算运费：2 公斤内 10 元；2 到 5 公斤，超出部分每公斤加 5 元；超过 5 公斤统一 30 元。
+weight = 3.5
+if weight <= 2:
+    print("运费10元")
+elif 2 < weight < 5:
+    print("运费是:" , 10 + (weight - 2) * 5)
+else:
+    print("运费30元")
+
 # 2. 定义变量 score = 95 和 is_leader = False，判断：分数大于 90 且是班干部，输出“评选优秀干部”；分数大于 90，输出“评选三好学生”；否则输出“继续努力”。
+score = 95
+is_leader = False
+if score > 90 and is_leader == True:
+    print("评选优秀干部")
+elif score > 90:
+    print("评选三好学生")
+else:
+    print("继续努力")
 # 3. 定义变量 num = -8，判断它是正数、负数还是零，并进一步判断正数是否为偶数、负数绝对值是否大于 5。
+num = -8
+if num > 0:
+    if num % 2 == 0:
+        print("是正数，并且是偶数")
+    else:
+        print("是正数，并且是奇数")
+elif num == 0:
+    print("值为0")
+else:
+    if -num > 5:
+        print("负数绝对值是否大于 5")
+    else:
+        print("负数绝对值是否小于 5")
