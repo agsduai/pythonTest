@@ -32,5 +32,14 @@ print(f"循环结束后 i = {i}")
 
 # ===== 练习题 =====
 # 1. 用 for 循环输出 1 到 10 的整数。
+for i in range(1,11):
+    print(i)
 # 2. 用 for 循环遍历字符串 "hello"，每行输出一个字符。
+x = "hello"
+for i in x:
+    print(i)
 # 3. 用 for 循环求 1 到 50 所有整数的和并输出。
+num = 0
+for i in range(1,51):
+    num += i
+print(num)

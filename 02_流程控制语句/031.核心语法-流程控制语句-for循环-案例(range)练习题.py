@@ -34,5 +34,18 @@ print(f"1 到 100 的偶数和为：{total}")
 
 # ===== 练习题 =====
 # 1. 用 range 求 1 到 100 的奇数和。
+num = 0
+for i in range(1, 101, 2):
+    num += i
+print(num)
 # 2. 用 range 输出 1 到 100 中所有 7 的倍数，每行输出一个。
+for i in range(1, 101):
+    x = i % 7 == 0
+    if x:
+        print(i)
 # 3. 用 range 倒序输出 10 到 1，再输出 1 到 10 的乘积。
+q = 1
+for i in range(10, 0 ,-1):
+    print(i)
+    q *= i
+print(q)

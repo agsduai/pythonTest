@@ -37,5 +37,23 @@ while count <= 10:
 
 # ===== 练习题 =====
 # 1. 用 for 循环找出 1 到 100 中第一个能被 13 整除的数，找到后用 break 结束循环。
-# 2. 用 for 循环和 continue 输出 1 到 20 中所有不能被 3 整除的数。
+for i in range(1, 101):
+    if i % 13 == 0:
+        print(i)
+        break
+
+# # 2. 用 for 循环和 continue 输出 1 到 20 中所有不能被 3 整除的数。
+for i in range(1, 21):
+    if i % 3 == 0:
+        continue
+    print(f"i = {i}")
 # 3. 用 while 循环模拟密码输入，最多尝试 3 次，输入正确密码 "8888" 时用 break 结束（运行后按提示输入）。
+n = 0
+while n < 3:
+    x = input("请输入密码")
+    if x == "8888":
+        print("密码正确")
+        break
+    else:
+        print(2)
+    n += 1

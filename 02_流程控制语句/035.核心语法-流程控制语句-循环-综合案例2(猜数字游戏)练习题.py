@@ -10,7 +10,7 @@
 print("欢迎来到猜数字游戏！")
 print("系统已经预设了一个 1 到 100 之间的整数。")
 
-target = 42  # 本示例不使用随机数，固定目标方便直接测试
+target = 66  # 本示例不使用随机数，固定目标方便直接测试
 count = 0
 
 while True:
@@ -18,13 +18,23 @@ while True:
     count += 1
     if guess > target:
         print("猜大了，再试试！")
+        if guess - target > 5:
+            print("还差得远")
+        else:
+            print("非常接近了")
     elif guess < target:
         print("猜小了，再试试！")
+        if target - guess > 5:
+            print("还差得远")
+        else:
+            print("非常接近了")
     else:
         print(f"恭喜你，猜对了！答案就是 {target}")
         print(f"你一共猜了 {count} 次")
         break  # 猜中后立即结束循环
-
+    if count == 5:
+        print("游戏结束")
+        break
 # ===== 练习题 =====
 # 1. 把目标数字改为 66，运行游戏并验证提示是否正确（运行后按提示输入）。
 # 2. 给游戏增加“最多猜 5 次”的限制：超过 5 次仍未猜中则输出“游戏结束”并退出（运行后按提示输入）。
